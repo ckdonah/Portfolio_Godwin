@@ -139,6 +139,9 @@ h2 span {
   color: white;
   background-color: black;
 }
+
+
+/* --Portfolio section-- */
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, auto));
@@ -198,6 +201,9 @@ h2 span {
 .row:hover .layer {
   height: 30%;
 }
+
+
+/* --Contact Section-- */
 
 .contact {
   display: grid;
@@ -326,6 +332,10 @@ form textarea {
   cursor: pointer;
 }
 
+
+
+/* --footer-- */
+
 footer {
   width: 100%;
   background-color: black;
@@ -345,6 +355,10 @@ footer a {
 footer p {
   font-size: 18px;
 }
+/* --end-footer */
+
+
+/* Media Query for Tablet  */
 
 @media screen and (max-width: 768px) {
   .contact {
